@@ -48,7 +48,9 @@ To get a local copy up and running follow these simple example steps.
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+Figma template used 
 
+https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=1%3A1471
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
