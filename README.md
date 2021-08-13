@@ -21,6 +21,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 ### Setup
+"git clone git@github.com:peterdgreat/myPortfolio.git" on your terminal 
 
 ### Install
 
