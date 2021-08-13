@@ -1,3 +1,64 @@
-body {
-  color: red;
+html ,body{
+  margin: 0;
+  padding: 0;
 }
+.nav-bar {
+  display: flex;
+  background-color: #3C3A39;
+height: 92px;
+align-items: center;
+
+justify-content: space-around;
+
+}
+.logo{
+  font-family: Roboto;
+font-size: 18px;
+font-style: bold;
+font-weight: 700;
+
+color: #FFFFFF;
+
+text-align: center;
+
+}
+
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  padding:0 24px 0 24px;
+   background-color: #1C1A19 ;
+ justify-content: center;
+  height: 590px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-image: url(/img/Illustration.png)
+}
+
+.intro h1{
+  margin: 0;
+  font-size: 56px;
+  color:#FF6B00;
+}
+
+.intro h3{
+  color: #FFF5E1;
+  margin: 0;
+
+}
+.intro-details p{
+  color:  #FFFFFF;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  
+  
+}
+
