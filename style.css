@@ -288,7 +288,7 @@ ul {
 .see {
   border: none;
   background: #ff6b00;
-  margin: 12px 0;
+  padding: 12px 0;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -296,6 +296,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
+  width: 100%;
 }
 
 .about {
@@ -503,7 +504,7 @@ ul {
 
 .btn-touch {
   justify-content: center;
-  width: 131px;
+  min-width: 131px;
   background: #ff6b00;
   display: flex;
   margin: 0 auto;
@@ -522,6 +523,7 @@ ul {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  width: 100%;
 }
 
 footer {
@@ -538,4 +540,24 @@ footer {
   width: 134px;
   display: flex;
   justify-content: center;
+}
+
+button:enabled {
+  background: #f55800;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
 }

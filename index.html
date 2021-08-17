@@ -290,16 +290,16 @@ Profesional Art Printing Data
            <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
        </div>
        <div>
-       <form class="form" action="" method="post">
+       <form class="form" action="https://formspree.io/f/xeqvpzae" method="post">
            <ul>
                <li class="border-bottom">
-                   <input type="text" id="name" placeholder="Full name">
+                   <input type="text" id="name" placeholder="Full name" required maxlength="30">
                </li>
                <li class="border-bottom">
-                   <input type="email" name="user-email" id="email" placeholder="Email address">
+                   <input type="email" name="user-email" id="email" placeholder="Email address" required>
                </li>
                <li>
-                   <textarea name="comment" id="comment" placeholder="Enter text here"></textarea>
+                   <textarea name="comment" id="comment" placeholder="Enter text here" maxlength="500"></textarea>
                </li>
                <li class="btn-touch border-btn">
                    <button class="submit" type="submit">Get in touch</button>
@@ -310,7 +310,7 @@ Profesional Art Printing Data
      
    </section>
    <footer>
-    <hr bg-footer>
+    <hr class="bg-footer">
  <ul class="footer-social">
      <li> <a ><img src="./img/f-GitHub.png" alt="github" ></a> </li>
      <li><a ><img src="./img/f-Linkedin.png" alt="Linkedin" > </a></li>
