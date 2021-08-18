@@ -13,6 +13,10 @@ body {
   justify-content: space-around;
 }
 
+.menu-list {
+  display: none;
+}
+
 .bar1,
 .bar2,
 .bar3 {
@@ -74,6 +78,10 @@ body {
   padding: 0;
   display: flex;
   justify-content: space-around;
+}
+
+.social-lg {
+  display: none;
 }
 
 .recent-works {
@@ -561,4 +569,52 @@ button:active {
 button:disabled {
   background: #f4f1f0;
   color: #5b5957;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-list {
+    display: flex;
+    justify-content: space-around;
+    width: 293px;
+    align-items: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .menu-list img {
+    margin-top: 6px;
+  }
+
+  .intro {
+    background-image: url(./img/Illustration-header.png);
+    height: 870px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .intro-details p {
+    max-width: 566px;
+  }
+
+  .social-lg {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    margin-right: 87px;
+  }
+
+  .social {
+    display: none;
+  }
 }
