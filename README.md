@@ -1,18 +1,25 @@
 # Portfolio
 
 
-> This is a simple portfolio website 
+> This is a simple portfolio website .For this project, I've used HTML, CSS to the entire website. I've included GRID and flexbox to make more professional distribution of elements inside specific parts of the website.
+
+
 
 
 ## Built With
 
-- HTML,CSS
+- HTML5
 
-- git,github
+- CSS
+
+- Visual Studio Code
+
+- Git & Github
 
 
+## Live Demo
 
-
+simple-portfolio-page.netlify.app
 ## Getting Started
 
 
@@ -21,12 +28,15 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 ### Setup
-"git clone git@github.com:peterdgreat/myPortfolio.git" on your terminal 
+* Open terminal
+* Clone this project by command git clone git@github.com:peterdgreat/myPortfolio.git"
+* Cd myPortolio folder
+* Open index.html in the browser (you can use Live Server in Visual Studio Code)
 
-### Install
 
 ### Usage
-
+# For anyone who wants to practice HTML5, CSS, and Bootstrap responsive design.
+How to apply responsive design using flexbox and GRID.
 
 
 
