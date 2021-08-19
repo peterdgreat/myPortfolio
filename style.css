@@ -538,8 +538,7 @@ ul {
 
 .btn-touch {
   justify-content: center;
-  min-width: 131px;
-  background: #ff6b00;
+  width: 100%;
   display: flex;
   margin: 0 auto;
   height: 48px;
@@ -548,6 +547,7 @@ ul {
 .submit {
   background: #ff6b00;
   text-align: center;
+  width: 131px;
   border: none;
   padding: 12px;
   color: #fff;
@@ -557,7 +557,6 @@ ul {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  width: 100%;
 }
 
 footer {
@@ -784,5 +783,34 @@ button:disabled {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+  }
+
+  .contact-form {
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .contact-form > div {
+    display: flex;
+    width: 100%;
+    height: 256px;
+  }
+
+  .footer-social {
+    align-items: flex-end;
+  }
+
+  .btn-touch {
+    justify-content: flex-start;
+  }
+
+  .form input {
+    display: flex;
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 274px;
   }
 }
