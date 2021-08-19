@@ -27,6 +27,14 @@ body {
   font-weight: 700;
   color: #fff;
   text-align: center;
+  animation-name: rotate360;
+  animation-duration: 2s;
+}
+
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .container {
@@ -561,4 +569,14 @@ button:active {
 button:disabled {
   background: #f4f1f0;
   color: #5b5957;
+}
+
+.form input,
+.form textarea {
+  transition: transform 0.5s linear;
+}
+
+.form input:hover,
+.form textarea:hover {
+  transform: translate(5px);
 }
