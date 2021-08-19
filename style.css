@@ -331,7 +331,6 @@ ul {
 
 .about {
   display: grid;
-  grid-template-rows: 652px 1249px;
   margin-top: 120px;
   background-color: #1c1a19;
 }
@@ -715,6 +714,13 @@ button:disabled {
     background-image: url(./img/Img-Placeholder-1.png);
     background-repeat: no-repeat;
     margin: 24px;
+    height: 435px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .proj-btn {
+    margin: 0;
   }
 
   .proj-work-2 {
@@ -722,19 +728,61 @@ button:disabled {
     background-image: url(./img/Img-Placeholder-2.png);
     background-repeat: no-repeat;
     margin: 24px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .proj-work-3 {
+    height: 435px;
     width: 327px;
     background-image: url(./img/Img-Placeholder-3.png);
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     margin: 24px;
   }
 
+  .langs-2 {
+    margin-bottom: 16px;
+  }
+
   .proj-work-0 {
+    height: 435px;
     width: 327px;
-    background-image: url(./img/Mask-Group.png);
+    background-image: url(./img/Img-Placeholder-0.png);
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     margin: 24px;
+  }
+
+  .abt {
+    background-image: url(./img/illustration-about-me.svg);
+  }
+
+  .d-abt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .abt-details p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    min-width: 566px;
+    height: 148px;
+    line-height: 32px;
+  }
+
+  .technologies {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
   }
 }
