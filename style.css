@@ -622,6 +622,8 @@ button:disabled {
 .form input:hover,
 .form textarea:hover {
   transform: translate(5px);
+}
+
 @media screen and (min-width: 1120px) {
   .menu {
     display: none;
