@@ -785,6 +785,7 @@ button:disabled {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+    text-align: left;
   }
 
   .contact-form {
