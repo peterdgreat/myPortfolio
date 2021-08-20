@@ -624,6 +624,11 @@ button:disabled {
     color: #fff;
   }
 
+  .menu-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+
   .menu-list img {
     margin-top: 6px;
   }
