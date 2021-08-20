@@ -31,6 +31,14 @@ body {
   font-weight: 700;
   color: #fff;
   text-align: center;
+  animation-name: rotate360;
+  animation-duration: 2s;
+}
+
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .container {
@@ -594,6 +602,7 @@ button:hover {
   border: 1px solid #f55800;
   color: #f55800;
   cursor: pointer;
+  transition: background-color 2s ease-in;
 }
 
 button:active {
@@ -873,4 +882,39 @@ button:disabled {
   .d-flex {
     justify-content: center;
   }
+}
+
+.proj-work:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.proj-work-0:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.proj-work-1:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.proj-work-2:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.proj-work-3:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.form input,
+.form textarea {
+  transition: transform 0.5s linear;
+}
+
+.form input:hover,
+.form textarea:hover {
+  transform: translate(5px);
 }
