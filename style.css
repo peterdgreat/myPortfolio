@@ -363,6 +363,14 @@ ul {
   color: #ff6b00;
 }
 
+.d-abt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 5%;
+}
+
 .abt-details p {
   width: 327px;
   height: 148px;
@@ -763,13 +771,6 @@ button:disabled {
 
   .abt {
     background-image: url(./img/illustration-about-me.svg);
-  }
-
-  .d-abt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
   }
 
   .abt-details p {
