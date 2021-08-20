@@ -368,7 +368,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  margin-left: 5%;
+  margin-left: 8%;
+  max-width: 80%;
 }
 
 .abt-details p {
