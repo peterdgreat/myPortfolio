@@ -125,7 +125,6 @@ img {
 }
 
 .title {
-  max-width: 327px;
   height: 83px;
   font-family: Crete RoundArial, Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -665,6 +664,7 @@ button:disabled {
 
   .title-header {
     flex-direction: row;
+    justify-content: center;
     width: 100%;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -672,9 +672,9 @@ button:disabled {
 
   .title-header h2 {
     display: flex;
-    align-items: flex-end;
     margin-right: 24px;
     width: 315px;
+    margin-top: 70px;
   }
 
   .title-border {
@@ -849,5 +849,28 @@ button:disabled {
     text-align: left;
     margin-right: 24px;
     width: 455px;
+  }
+
+  .mg {
+    min-width: 448px;
+    align-items: flex-start;
+  }
+
+  .stories {
+    justify-content: flex-start;
+  }
+
+  .story-details {
+    min-width: 448px;
+  }
+
+  .story-details p {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .d-flex {
+    justify-content: center;
   }
 }
