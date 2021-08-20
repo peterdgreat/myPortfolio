@@ -758,31 +758,6 @@ button:disabled {
     align-items: flex-end;
   }
 
-  .proj-work:hover {
-    transform: scale(1.1);
-    transition: 1.5s ease-out;
-  }
-
-  .proj-work-0:hover {
-    transform: scale(1.1);
-    transition: 1.5s ease-out;
-  }
-
-  .proj-work-1:hover {
-    transform: scale(1.1);
-    transition: 1.5s ease-out;
-  }
-
-  .proj-work-2:hover {
-    transform: scale(1.1);
-    transition: 1.5s ease-out;
-  }
-
-  .proj-work-3:hover {
-    transform: scale(1.1);
-    transition: 1.5s ease-out;
-  }
-
   .proj-btn {
     margin: 0;
   }
@@ -909,6 +884,30 @@ button:disabled {
   }
 }
 
+.proj-work:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.proj-work-0:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.proj-work-1:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.proj-work-2:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
+
+.proj-work-3:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease-out;
+}
 
 .form input,
 .form textarea {
