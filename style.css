@@ -819,4 +819,12 @@ button:disabled {
   .bg-2-footer {
     display: none;
   }
+
+  .interest h2 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-right: 24px;
+    width: 455px;
+  }
 }
