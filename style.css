@@ -516,6 +516,8 @@ ul {
   flex-direction: column;
   align-items: center;
   padding: 24px;
+  margin-right: 124px;
+  margin-left: 124px;
 }
 
 .contact-form > div {
@@ -812,5 +814,9 @@ button:disabled {
 
   footer {
     margin-top: 274px;
+  }
+
+  .bg-2-footer {
+    display: none;
   }
 }
