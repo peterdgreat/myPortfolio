@@ -606,7 +606,7 @@ button:disabled {
   color: #5b5957;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1120px) {
   .menu {
     display: none;
   }
@@ -647,6 +647,10 @@ button:disabled {
     flex-direction: column;
     width: 20px;
     margin-right: 87px;
+  }
+
+  .social-lg li {
+    margin-top: 20px;
   }
 
   .social {
@@ -692,8 +696,10 @@ button:disabled {
   }
 
   .recent-works {
-    margin-left: 141px;
-    margin-right: 143px;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 100%;
+    padding-left: 0;
   }
 
   .d-flex {
@@ -711,7 +717,17 @@ button:disabled {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
+
+  }
+
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .proj-work {
