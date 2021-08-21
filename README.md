@@ -3,6 +3,9 @@
 
 > This is a simple portfolio website .For this project, I've used HTML, CSS to the entire website. I've included GRID and flexbox to make more professional distribution of elements inside specific parts of the website.
 
+#### Mobile
+
+- (img/readme/mobile-1.png)
 
 
 
