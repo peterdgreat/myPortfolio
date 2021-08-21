@@ -27,26 +27,21 @@
 
 
 ## Live Demo
+https://peterdgreat.github.io/myPortfolio/
 
-simple-portfolio-page.netlify.app
 ## Getting Started
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 * Open terminal
-* Clone this project by command git clone git@github.com:peterdgreat/myPortfolio.git
+* Clone this project by command git clone https://git@github.com:peterdgreat/myPortfolio.git
 * Cd myPortolio folder
 * Open index.html in the browser (you can use Live Server in Visual Studio Code)
 
 
 ### Usage
-# For anyone who wants to practice HTML5, CSS, and Bootstrap responsive design.
+#### For anyone who wants to practice HTML5, CSS, and Bootstrap responsive design.
 How to apply responsive design using flexbox and GRID.
-
 
 
 
@@ -57,9 +52,6 @@ How to apply responsive design using flexbox and GRID.
 - GitHub: [@githubhandle](https://github.com/peterdgreat)
 - Twitter: [@twitterhandle](https://twitter.com/dev_Peter_O)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ajayi-peter-4391ab1b5)
-
-
-
 
 
 ## Show your support
