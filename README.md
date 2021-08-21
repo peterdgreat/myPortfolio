@@ -5,10 +5,13 @@
 
 #### Mobile
 
-- ![screenshot](/img/readme/mobile-1.png)     ![screenshot-2](/img/readme/mobile-2.png) 
+![screenshot](/img/readme/mobile-1.png)               ![screenshot-2](/img/readme/mobile-2.png) 
 
 
-- ![screenshot-3](/img/readme/mobile-3.png)    ![screenshot-4](/img/readme/mobile-4.png)
+</br>
+
+
+![screenshot-3](/img/readme/mobile-3.png)              ![screenshot-4](/img/readme/mobile-4.png)
 
 
 
