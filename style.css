@@ -303,6 +303,11 @@ ul {
   background-image: url(./img/Mask-Group.png);
   background-repeat: no-repeat;
   margin: 24px;
+  transition: 1.5s ease-out;
+}
+
+.proj-work:hover {
+  transform: scale(1.1);
 }
 
 .proj-btn {
@@ -593,6 +598,10 @@ footer {
   justify-content: center;
 }
 
+button {
+  transition: background-color 2s ease-in;
+}
+
 button:enabled {
   background: #f55800;
 }
@@ -602,7 +611,6 @@ button:hover {
   border: 1px solid #f55800;
   color: #f55800;
   cursor: pointer;
-  transition: background-color 2s ease-in;
 }
 
 button:active {
@@ -756,6 +764,11 @@ button:disabled {
     height: 435px;
     display: flex;
     align-items: flex-end;
+    transition: 1.5s ease-out;
+  }
+
+  .proj-work-1:hover {
+    transform: scale(1.1);
   }
 
   .proj-btn {
@@ -771,6 +784,11 @@ button:disabled {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    transition: 1.5s ease-out;
+  }
+
+  .proj-work-2:hover {
+    transform: scale(1.1);
   }
 
   .proj-work-3 {
@@ -782,6 +800,11 @@ button:disabled {
     flex-direction: column;
     justify-content: flex-end;
     margin: 24px;
+    transition: 1.5s ease-out;
+  }
+
+  .proj-work-3:hover {
+    transform: scale(1.1);
   }
 
   .langs-2 {
@@ -797,6 +820,11 @@ button:disabled {
     flex-direction: column;
     justify-content: flex-end;
     margin: 24px;
+    transition: 1.5s ease-out;
+  }
+
+  .proj-work-0:hover {
+    transform: scale(1.1);
   }
 
   .abt {
@@ -882,31 +910,6 @@ button:disabled {
   .d-flex {
     justify-content: center;
   }
-}
-
-.proj-work:hover {
-  transform: scale(1.1);
-  transition: 1.5s ease-out;
-}
-
-.proj-work-0:hover {
-  transform: scale(1.1);
-  transition: 1.5s ease-out;
-}
-
-.proj-work-1:hover {
-  transform: scale(1.1);
-  transition: 1.5s ease-out;
-}
-
-.proj-work-2:hover {
-  transform: scale(1.1);
-  transition: 1.5s ease-out;
-}
-
-.proj-work-3:hover {
-  transform: scale(1.1);
-  transition: 1.5s ease-out;
 }
 
 .form input,
