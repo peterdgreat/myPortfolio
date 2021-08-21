@@ -3,6 +3,15 @@
 
 > This is a simple portfolio website .For this project, I've used HTML, CSS to the entire website. I've included GRID and flexbox to make more professional distribution of elements inside specific parts of the website.
 
+#### Mobile
+
+![screenshot](/img/readme/mobile-1.png) <hr> ![screenshot-2](/img/readme/mobile-2.png) 
+
+
+<br>
+
+
+![screenshot-3](/img/readme/mobile-3.png)  <hr>    ![screenshot-4](/img/readme/mobile-4.png)
 
 
 
@@ -29,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 * Open terminal
-* Clone this project by command git clone git@github.com:peterdgreat/myPortfolio.git"
+* Clone this project by command git clone git@github.com:peterdgreat/myPortfolio.git
 * Cd myPortolio folder
 * Open index.html in the browser (you can use Live Server in Visual Studio Code)
 
