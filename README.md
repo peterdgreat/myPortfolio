@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 * Open terminal
-* Clone this project by command git clone git@github.com:peterdgreat/myPortfolio.git"
+* Clone this project by command git clone git@github.com:peterdgreat/myPortfolio.git
 * Cd myPortolio folder
 * Open index.html in the browser (you can use Live Server in Visual Studio Code)
 
