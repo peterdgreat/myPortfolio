@@ -5,7 +5,7 @@
 
 #### Mobile
 
-(/img/readme/mobile-1.png)
+![screenshot](/img/readme/mobile-1.png)
 
 
 
