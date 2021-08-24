@@ -31,14 +31,6 @@ body {
   font-weight: 700;
   color: #fff;
   text-align: center;
-  animation-name: rotate360;
-  animation-duration: 2s;
-}
-
-@keyframes rotate360 {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .container {
