@@ -59,7 +59,7 @@ body {
   background-image: url(./img/Illustration.png);
 }
 
-.intro h2 {
+.intro h1 {
   margin: 0;
   font-size: 56px;
   color: #ff6b00;
@@ -363,7 +363,7 @@ ul {
   background-color: #fff;
 }
 
-.abt h1 {
+.abt h2 {
   margin: 0;
   width: 327px;
   height: 79px;
@@ -916,6 +916,10 @@ button:disabled {
 
   .story-details p {
     width: 100%;
+  }
+
+  .logo {
+    font-size: 20px;
   }
 }
 
