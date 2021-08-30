@@ -17,12 +17,33 @@ body {
   display: none;
 }
 
+#list-menu {
+  width: 80%;
+}
+
+#list-menu li {
+  border-bottom: 1px solid #6f6c6b;
+}
+
+#list-menu a {
+  text-decoration: none;
+  color: #fff5e1;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .show {
   display: block;
 }
 
 .height {
   height: 100vh;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .bar1,
@@ -40,6 +61,9 @@ body {
 
 .delete {
   color: #fff;
+  margin-right: 40px;
+  margin-top: 40px;
+  align-self: flex-end;
 }
 
 .logo {
