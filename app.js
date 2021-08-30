@@ -4,6 +4,7 @@ const navBar = document.querySelector('.nav-bar');
 const closeBtn = document.querySelector('.delete');
 const mail = document.querySelector('#mail');
 const logo = document.querySelector('.logo');
+const menuItem = document.querySelectorAll('.menu-item');
 
 function toggleButton() {
   menuList.classList.toggle('show');
@@ -16,3 +17,6 @@ function toggleButton() {
 
 menu.addEventListener('click', toggleButton);
 closeBtn.addEventListener('click', toggleButton);
+menuItem.forEach((menu) => {
+  menu.addEventListener('click', (toggleButton));
+});
