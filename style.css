@@ -17,6 +17,14 @@ body {
   display: none;
 }
 
+.show {
+  display: block;
+}
+
+.height {
+  height: 100vh;
+}
+
 .bar1,
 .bar2,
 .bar3 {
@@ -24,6 +32,14 @@ body {
   height: 2px;
   background-color: #fff;
   margin: 4px 0;
+}
+
+.d-none {
+  display: none;
+}
+
+.delete {
+  color: #fff;
 }
 
 .logo {
