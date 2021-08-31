@@ -646,10 +646,6 @@ button:disabled {
   color: #5b5957;
 }
 
-#list-menu li {
-  border-bottom: 1px solid #6f6c6b;
-}
-
 #list-menu a {
   text-decoration: none;
   color: #fff5e1;
@@ -956,6 +952,10 @@ button:disabled {
 
   .logo {
     font-size: 20px;
+  }
+
+  #list-menu li {
+    border-bottom: 0;
   }
 }
 
