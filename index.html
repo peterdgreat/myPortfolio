@@ -14,6 +14,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=IniaMathi' rel='stylesheet'>
@@ -22,18 +23,20 @@
 </head>
 <body>
 <header>
-    <nav class="nav-bar" >
+    <nav class="nav-bar " >
         <div class="logo"><a>Ajayi Peter </a> </div>
-      <nav class="menu" >
+      <nav class="menu" id="hamburger" >
            <div class="bar1"></div>
   <div class="bar2"></div>
   <div class="bar3"></div>
       </nav>
-      <ul class="menu-list">
-        <li><a href="#portfolio-section"> Portfolio </a></li>
-        <li><a href="#about-section">About</a> </li>
-        <li><a href="#contact-section">Contact</a> </li>
-        <li><a href="#"> <img src="./img/Union.png" alt="mail"> </a></li>
+      <div class="delete d-none">  <i class="material-icons">close</i></div>
+
+      <ul class="menu-list" id="list-menu">
+        <li class="menu-item"><a href="#portfolio-section"> Portfolio </a></li>
+        <li  class="menu-item"><a href="#about-section">About</a> </li>
+        <li  class="menu-item"><a href="#contact-section">Contact</a> </li>
+        <li ><a href="#" id="mail"> <img src="./img/Union.png" alt="mail"> </a></li>
     </ul>
     </nav>
 </header>
@@ -479,5 +482,6 @@ Profesional Art Printing Data
  <hr class="bg-2-footer">
 </footer>
 </div>
+<script src="app.js"></script>
 </body>
 </html>
