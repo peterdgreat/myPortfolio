@@ -6,15 +6,68 @@ const mail = document.querySelector('#mail');
 const logo = document.querySelector('.logo');
 const menuItem = document.querySelectorAll('.menu-item');
 
-const projWork = document.querySelectorAll('.proj-work');
+const projWork = document.getElementsByClassName('proj-work');
 
 const projectsList = [
   {
-    title: 'Profesional Art Printing Data',
+    title: 'A Weather App',
     details: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    langs: ['html', 'bootstrap', 'ruby'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    langs: ['html', 'bootstrap', 'Javascript'],
     btn: 'see project',
-    img: './img/Mask-Group.png',
+    img: './img/Snapshoot-Portfolio.png',
+    source: 'https://github.com/peterdgreat/N-Weather-App',
+    live: ' https://n-weather.netlify.app/',
+  },
+  {
+    title: 'A Weather App',
+    details: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    langs: ['html', 'bootstrap', 'Javascript'],
+    btn: 'see project',
+    img: './img/Snapshoot-Portfolio.png',
+    source: 'https://github.com/peterdgreat/N-Weather-App',
+    live: ' https://n-weather.netlify.app/',
+  },
+  {
+    title: 'A Weather App',
+    details: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    langs: ['html', 'bootstrap', 'Javascript'],
+    btn: 'see project',
+    img: './img/Snapshoot-Portfolio.png',
+    source: 'https://github.com/peterdgreat/N-Weather-App',
+    live: ' https://n-weather.netlify.app/',
+  },
+  {
+    title: 'A Weather App',
+    details: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    langs: ['html', 'bootstrap', 'Javascript'],
+    btn: 'see project',
+    img: './img/Snapshoot-Portfolio.png',
+    source: 'https://github.com/peterdgreat/N-Weather-App',
+    live: ' https://n-weather.netlify.app/',
+  },
+  {
+    title: 'A Dynamic App',
+    details: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    langs: ['html', 'bootstrap', 'Javascript'],
+    btn: 'see project',
+    img: './img/Snapshoot-Portfolio.png',
+    source: 'https://github.com/peterdgreat/N-Weather-App',
+    live: ' https://n-weather.netlify.app/',
+  },
+  {
+    title: 'A start App',
+    details: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    langs: ['html', 'bootstrap', 'C++'],
+    btn: 'see project',
+    img: './img/Snapshoot-Portfolio.png',
+    source: 'https://github.com/peterdgreat/N-Weather-App',
+    live: ' https://n-weather.netlify.app/',
   }];
 
 function toggleButton() {
@@ -39,18 +92,16 @@ const newLi = (() => {
 });
 
 // projWork.innerHTML = projectsList[0].title;
-projWork.forEach((projs) => {
-  projs.classList.add('proj-work-j');
-  const projNodes = projs.childNodes;
+// projWork.forEach((projs) => {
+for (let projs = 0; projs < projWork.length; projs += 1) {
+  projWork[projs].classList.add('proj-work-j');
+  const projNodes = projWork[projs].childNodes;
   const btn = document.createElement('button');
-  projNodes[1].innerHTML = projectsList[0].title;
-  projNodes[3].innerHTML = projectsList[0].details;
+  projNodes[1].innerHTML = projectsList[projs].title;
+  projNodes[3].innerHTML = projectsList[projs].details;
   for (let listItem = 0; listItem < projectsList[0].langs.length; listItem += 1) {
-    projNodes[5].appendChild(newLi()).innerHTML = projectsList[0].langs[listItem];
+    projNodes[5].appendChild(newLi()).innerHTML = projectsList[projs].langs[listItem];
+    projNodes[7].appendChild(btn).innerHTML = projectsList[projs].btn;
+    projNodes[7].appendChild(btn).classList.add('proj-btn', 'see');
   }
-  projNodes[7].appendChild(btn).innerHTML = projectsList[0].btn;
-  projNodes[7].appendChild(btn).classList.add('see', 'proj-btn');
-  console.log(projNodes[7].appendChild(btn));
-
-//  console.log(projNodes[5]);
-});
+}
