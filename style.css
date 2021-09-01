@@ -316,15 +316,16 @@ ul {
   display: none;
 }
 
-.proj-work {
+.proj-work-j {
+  height: 386px;
   width: 327px;
-  background-image: url(./img/Mask-Group.png);
+  background-image: url(./img/Img-Placeholder-0.png);
   background-repeat: no-repeat;
   margin: 24px;
   transition: 1.5s ease-out;
 }
 
-.proj-work:hover {
+.proj-work-j:hover {
   transform: scale(1.1);
 }
 
@@ -669,6 +670,23 @@ button:disabled {
     display: none;
   }
 
+  .see {
+    display: none;
+  }
+
+  .proj-btn {
+    display: none;
+  }
+
+  .work-2 {
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   .menu-list {
     display: flex;
     justify-content: space-around;
@@ -760,8 +778,6 @@ button:disabled {
   }
 
   .recent-works {
-    margin-left: 1%;
-    margin-right: 1%;
     width: 100%;
     padding-left: 0;
   }
@@ -770,10 +786,6 @@ button:disabled {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .work-2 {
-    display: none;
   }
 
   .d-work {
@@ -793,10 +805,6 @@ button:disabled {
     margin-right: 0;
   }
 
-  .proj-work {
-    display: none;
-  }
-
   .proj-work-1 {
     width: 327px;
     background-image: url(./img/Img-Placeholder-1.png);
@@ -810,10 +818,6 @@ button:disabled {
 
   .proj-work-1:hover {
     transform: scale(1.1);
-  }
-
-  .proj-btn {
-    margin: 0;
   }
 
   .proj-work-2 {
