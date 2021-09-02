@@ -319,7 +319,7 @@ ul {
 .proj-work-j {
   height: 386px;
   width: 327px;
-  background-image: url(./img/Img-Placeholder-0.png);
+  background-image: url(/img/Img-Placeholder-0.png);
   background-repeat: no-repeat;
   margin: 24px;
   transition: 1.5s ease-out;
@@ -935,7 +935,7 @@ button:disabled {
 
   .proj-work-1 {
     width: 327px;
-    background-image: url(./img/Img-Placeholder-1.png);
+    background-image: url(/img/Img-Placeholder-1.png);
     background-repeat: no-repeat;
     margin: 24px;
     height: 435px;
@@ -950,7 +950,7 @@ button:disabled {
 
   .proj-work-2 {
     width: 327px;
-    background-image: url(./img/Img-Placeholder-2.png);
+    background-image: url(/img/Img-Placeholder-2.png);
     background-repeat: no-repeat;
     margin: 24px;
     height: 435px;
