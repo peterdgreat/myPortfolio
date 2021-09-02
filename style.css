@@ -673,6 +673,47 @@ button:disabled {
   justify-content: center;
 }
 
+.pop-up-header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.pop-up-top {
+  margin-left: 10%;
+}
+
+#close-popup {
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.pop-up-abt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.pop-up-abt img {
+  width: 80%;
+  max-width: 600px;
+}
+
+.pop-up-details {
+  width: 90%;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer button {
+  margin: 10px;
+}
+
 .pop-up-j {
   height: 80vh;
   overflow-y: scroll;
@@ -811,6 +852,27 @@ button:disabled {
 
   .work section {
     max-width: 684px;
+  }
+
+  .pop-up-abt {
+    flex-direction: row;
+  }
+
+  .pop-up-abt img {
+    margin-left: 20px;
+  }
+
+  .pop-up-details {
+    align-self: flex-start ;
+  }
+
+  .pop-up-details p {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .modal-footer {
+    margin-left: 70px;
   }
 
   .recent-works {
