@@ -18,7 +18,8 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=IniaMathi' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
     <title>Portfolio Website| Ajayi</title>
 </head>
 <body>
@@ -347,7 +348,7 @@ I’m Peter
            <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
        </div>
        <div>
-       <form class="form" action="https://formspree.io/f/xeqvpzae" method="post">
+       <form class="form" id="form" action="https://formspree.io/f/xeqvpzae" method="post">
            <ul>
                <li class="border-bottom">
                    <input type="text" id="name" placeholder="Full name" required maxlength="30">
@@ -357,9 +358,9 @@ I’m Peter
                </li>
                <li>
                    <textarea name="comment" id="comment" placeholder="Enter text here" maxlength="500" required></textarea>
-               </li>
-               <li class="btn-touch border-btn">
                    <small id="error"></small>
+                </li>
+               <li class="btn-touch border-btn">
                    <button class="submit" type="submit">Get in touch</button>
                </li>
            </ul>
@@ -409,6 +410,7 @@ I’m Peter
          </div>
 </section>
 </div>
-<script src="app.js"></script>
+<script src="js/app.js"></script>
+<script src="js/validation.js"></script>
 </body>
 </html>

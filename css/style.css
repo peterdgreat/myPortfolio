@@ -606,7 +606,7 @@ ul {
 .submit {
   background: #ff6b00;
   text-align: center;
-  width: 131px;
+  width: 150px;
   border: none;
   padding: 12px;
   color: #fff;
@@ -752,6 +752,12 @@ button:disabled {
 
 .opacity-close {
   opacity: 0;
+}
+
+#error {
+  color: red;
+  display: flex;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 1120px) {
