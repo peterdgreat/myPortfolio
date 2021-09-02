@@ -10,6 +10,7 @@ const popUpTop = document.querySelector('.pop-up-top');
 const closePopUp = document.querySelector('#close-popup');
 const projWork = document.querySelectorAll('.proj-work');
 const popUpAbt = document.querySelector('.pop-up-abt');
+const mainContainer = document.querySelector('.main-container');
 
 const projectsList = [
   {
@@ -122,10 +123,12 @@ for (let projs = 0; projs < projWork.length; projs += 1) {
     abtNode[1].src = projectsList[projs].img;
     abtNode[3].firstChild.nextElementSibling.innerHTML = projectsList[projs].description;
     closePopUp.innerHTML = 'close';
+    mainContainer.classList.add('blur');
   };
   const popUpClose = () => {
     popUp.classList.add('d-none');
     popUpTop.childNodes[3].innerHTML = '';
+    mainContainer.classList.remove('blur');
   };
   btns.addEventListener('click', popUpFormation);
   closePopUp.addEventListener('click', popUpClose);
