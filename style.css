@@ -74,7 +74,7 @@ body {
 }
 
 .d-none {
-  display: none;
+  display: none !important;
 }
 
 .delete {
@@ -663,17 +663,55 @@ button:disabled {
   color: #67798e;
 }
 
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.pop-up {
+  display: flex;
+  justify-content: center;
+}
+
+.pop-up-j {
+  height: 80vh;
+  overflow-y: scroll;
+  width: 100%;
+  top: 40px;
+  position: fixed;
+  opacity: 1;
+}
+
+.pop-up-bg {
+  background-color: #fff;
+  width: 100%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.opacity-close {
+  opacity: 0;
+}
+
 @media screen and (min-width: 1120px) {
   .menu {
     display: none;
   }
 
   .see {
-    display: none;
+    opacity: 0;
   }
 
   .proj-btn {
-    display: none;
+    opacity: 0;
+  }
+
+  .opacity-show {
+    opacity: 1;
+  }
+
+  .proj-work-j {
+    opacity: 1;
   }
 
   .work-2 {

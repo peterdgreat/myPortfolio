@@ -5,8 +5,11 @@ const closeBtn = document.querySelector('.delete');
 const mail = document.querySelector('#mail');
 const logo = document.querySelector('.logo');
 const menuItem = document.querySelectorAll('.menu-item');
-
+const popUp = document.querySelector('.pop-up-bg');
+const popUpTop = document.querySelector('.pop-up-top');
+const closePopUp = document.querySelector('#close-popup');
 const projWork = document.querySelectorAll('.proj-work');
+const popUpAbt = document.querySelector('.pop-up-abt');
 
 const projectsList = [
   {
@@ -94,12 +97,36 @@ const newLi = (() => {
 for (let projs = 0; projs < projWork.length; projs += 1) {
   projWork[projs].classList.add('proj-work-j');
   const projNodes = projWork[projs].childNodes;
+  projWork[projs].addEventListener('mouseover', (evt) => {
+    evt.target.style.opacity = '1';
+  });
   const btn = document.createElement('button');
+  const btns = projNodes[7].appendChild(btn);
   projNodes[1].innerHTML = projectsList[projs].title;
   projNodes[3].innerHTML = projectsList[projs].details;
   for (let listItem = 0; listItem < projectsList[0].langs.length; listItem += 1) {
     projNodes[5].appendChild(newLi()).innerHTML = projectsList[projs].langs[listItem];
-    projNodes[7].appendChild(btn).innerHTML = projectsList[projs].btn;
-    projNodes[7].appendChild(btn).classList.add('proj-btn', 'see');
+    btns.innerHTML = projectsList[projs].btn;
+    btns.classList.add('proj-btn', 'see');
   }
+
+  const popUpFormation = () => {
+    popUp.classList.toggle('d-none');
+    const topNode = popUpTop.childNodes;
+    const abtNode = popUpAbt.childNodes;
+    topNode[1].innerHTML = projectsList[projs].title;
+    for (let listItem = 0; listItem < projectsList[0].langs.length; listItem += 1) {
+      topNode[3].appendChild(newLi()).innerHTML = projectsList[projs].langs[listItem];
+    }
+
+    abtNode[1].src = projectsList[projs].img;
+    abtNode[3].firstChild.nextElementSibling.innerHTML = projectsList[projs].description;
+    closePopUp.innerHTML = 'close';
+  };
+  const popUpClose = () => {
+    popUp.classList.add('d-none');
+    popUpTop.childNodes[3].innerHTML = '';
+  };
+  btns.addEventListener('click', popUpFormation);
+  closePopUp.addEventListener('click', popUpClose);
 }
