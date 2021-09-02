@@ -235,6 +235,7 @@ img {
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
+  flex-wrap: wrap;
 }
 
 .recent-works h5 {
@@ -357,6 +358,12 @@ ul {
   letter-spacing: 0.03em;
   color: #fff;
   width: 100%;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
 }
 
 .about {
@@ -722,14 +729,9 @@ button:disabled {
   color: #344563;
 }
 
-.modal-footer {
-  display: flex;
-  width: 62%;
-  justify-content: flex-end;
-}
-
 .modal-footer button {
   margin: 10px;
+  width: 134px;
 }
 
 .pop-up-j {
@@ -891,7 +893,10 @@ button:disabled {
   }
 
   .modal-footer {
-    margin-left: 70px;
+    align-content: flex-end;
+    display: flex;
+    width: 62%;
+    justify-content: flex-start;
   }
 
   .recent-works {
