@@ -483,6 +483,7 @@ ul {
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
 }
+
 .form textarea {
   width: 95%;
   height: 114px;
