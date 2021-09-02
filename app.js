@@ -11,7 +11,7 @@ const closePopUp = document.querySelector('#close-popup');
 const projWork = document.querySelectorAll('.proj-work');
 const popUpAbt = document.querySelector('.pop-up-abt');
 const mainContainer = document.querySelector('.main-container');
-
+const firstProj = document.querySelector('#showProject');
 const projectsList = [
   {
     title: 'A Weather App',
@@ -131,5 +131,21 @@ for (let projs = 0; projs < projWork.length; projs += 1) {
     mainContainer.classList.remove('blur');
   };
   btns.addEventListener('click', popUpFormation);
+
   closePopUp.addEventListener('click', popUpClose);
 }
+
+firstProj.addEventListener('click', () => {
+  popUp.classList.remove('d-none');
+  const topNode = popUpTop.childNodes;
+  const abtNode = popUpAbt.childNodes;
+  topNode[1].innerHTML = 'Multi Post Stories';
+  const langs = ['css', 'Html', 'boostrap', 'ruby'];
+  for (let listItem = 0; listItem < 4; listItem += 1) {
+    topNode[3].appendChild(newLi()).innerHTML = langs[listItem];
+  }
+  abtNode[1].src = './img/desk-Img-Placeholder.png';
+  abtNode[3].firstChild.nextElementSibling.innerHTML = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.';
+  closePopUp.innerHTML = 'close';
+  mainContainer.classList.add('blur');
+});
