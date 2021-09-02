@@ -149,7 +149,3 @@ firstProj.addEventListener('click', () => {
   closePopUp.innerHTML = 'close';
   mainContainer.classList.add('blur');
 });
-
-function validation () {
-
-}
