@@ -319,7 +319,7 @@ ul {
 .proj-work-j {
   height: 386px;
   width: 327px;
-  background-image: url(./img/Img-Placeholder-0.png);
+  background-image: url(/img/Img-Placeholder-0.png);
   background-repeat: no-repeat;
   margin: 24px;
   transition: 1.5s ease-out;
@@ -606,7 +606,7 @@ ul {
 .submit {
   background: #ff6b00;
   text-align: center;
-  width: 131px;
+  width: 150px;
   border: none;
   padding: 12px;
   color: #fff;
@@ -752,6 +752,12 @@ button:disabled {
 
 .opacity-close {
   opacity: 0;
+}
+
+#error {
+  color: red;
+  display: flex;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 1120px) {
@@ -929,7 +935,7 @@ button:disabled {
 
   .proj-work-1 {
     width: 327px;
-    background-image: url(./img/Img-Placeholder-1.png);
+    background-image: url(/img/Img-Placeholder-1.png);
     background-repeat: no-repeat;
     margin: 24px;
     height: 435px;
@@ -944,7 +950,7 @@ button:disabled {
 
   .proj-work-2 {
     width: 327px;
-    background-image: url(./img/Img-Placeholder-2.png);
+    background-image: url(/img/Img-Placeholder-2.png);
     background-repeat: no-repeat;
     margin: 24px;
     height: 435px;
