@@ -106,7 +106,7 @@ body {
   height: 590px;
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-image: url(./img/Illustration.png);
+  background-image: url(/img/Illustration.png);
 }
 
 .intro h1 {
@@ -379,7 +379,7 @@ ul {
   height: 590px;
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-image: url(./img/illustration-about-me-mobile.png);
+  background-image: url(/img/illustration-about-me-mobile.png);
 }
 
 .bg {
@@ -813,7 +813,7 @@ button:disabled {
   }
 
   .intro {
-    background-image: url(./img/Illustration-header.png);
+    background-image: url(/img/Illustration-header.png);
     height: 870px;
     flex-direction: row;
     justify-content: flex-start;
@@ -967,7 +967,7 @@ button:disabled {
   .proj-work-3 {
     height: 435px;
     width: 327px;
-    background-image: url(./img/Img-Placeholder-3.png);
+    background-image: url(/img/Img-Placeholder-3.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -987,7 +987,7 @@ button:disabled {
   .proj-work-0 {
     height: 435px;
     width: 327px;
-    background-image: url(./img/Img-Placeholder-0.png);
+    background-image: url(/img/Img-Placeholder-0.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -1001,7 +1001,7 @@ button:disabled {
   }
 
   .abt {
-    background-image: url(./img/illustration-about-me.svg);
+    background-image: url(/img/illustration-about-me.svg);
   }
 
   .abt-details p {
