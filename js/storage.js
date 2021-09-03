@@ -24,9 +24,9 @@ const populateStorage = () => {
 
 const getItems = () => {
   data = JSON.parse(localStorage.getItem('formDetails'));
-  nameUser.value = data.userName;
-  eMail.value = data.userMail;
-  comment.value = data.userComment;
+  nameUser.value = data.username;
+  eMail.value = data.usermail;
+  comment.value = data.usercomment;
   populateStorage();
 };
 
