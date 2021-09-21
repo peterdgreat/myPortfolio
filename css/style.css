@@ -319,7 +319,7 @@ ul {
 .proj-work-j {
   height: 386px;
   width: 327px;
-  background-image: url(/img/Img-Placeholder-0.png);
+  background-image: url(../img/Img-Placeholder-0.png);
   background-repeat: no-repeat;
   margin: 24px;
   transition: 1.5s ease-out;
