@@ -86,7 +86,11 @@ function toggleButton() {
 menu.addEventListener('click', toggleButton);
 closeBtn.addEventListener('click', toggleButton);
 menuItem.forEach((menu) => {
-  menu.addEventListener('click', (toggleButton));
+  menu.addEventListener('click', () => {
+    if (navBar.classList.contains('height')) {
+      toggleButton();
+    }
+  });
 });
 
 // To create a new li
