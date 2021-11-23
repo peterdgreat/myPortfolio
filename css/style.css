@@ -164,10 +164,6 @@ img {
   justify-content: center;
 }
 
-.desk-img {
-  display: none;
-}
-
 .title-header {
   display: flex;
   align-items: center;
@@ -251,7 +247,7 @@ img {
 
 .pst-btn {
   background: #ff6b00;
-  margin: 12px 0;
+  margin: 12px 12px;
   border: none;
   height: 48px;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -260,6 +256,14 @@ img {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  max-width: 100%;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
 }
 
 .projects {
@@ -276,6 +280,11 @@ img {
   color: #fff;
   margin: 64px 0 0 12px;
   padding-top: 12px;
+}
+
+a:any-link {
+  color: #fff;
+  text-decoration: none;
 }
 
 ul {
@@ -873,7 +882,7 @@ button:disabled {
 
   .desk-img {
     max-width: 100%;
-    display: flex;
+    height: auto;
   }
 
   .work section {

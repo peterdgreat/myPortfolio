@@ -143,13 +143,13 @@ firstProj.addEventListener('click', () => {
   popUp.classList.remove('d-none');
   const topNode = popUpTop.childNodes;
   const abtNode = popUpAbt.childNodes;
-  topNode[1].innerHTML = 'Multi Post Stories';
-  const langs = ['css', 'Html', 'boostrap', 'ruby'];
+  topNode[1].innerHTML = 'Crypto Metrics';
+  const langs = ['React', 'Redux', 'Css', 'Bootstrap'];
   for (let listItem = 0; listItem < 4; listItem += 1) {
     topNode[3].appendChild(newLi()).innerHTML = langs[listItem];
   }
-  abtNode[1].src = './img/desk-Img-Placeholder.png';
-  abtNode[3].firstChild.nextElementSibling.innerHTML = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.';
+  abtNode[1].src = './img/Crypto-metrics.jpg';
+  abtNode[3].firstChild.nextElementSibling.innerHTML = "This is a mobile web app that provides simple information about data in the cryptocurrency market. Users can see the current price of any available cryptocurrency, can see the market cap of any cryptocurrency coin, and also filter the data based on the users' search.";
   closePopUp.innerHTML = 'close';
   mainContainer.classList.add('blur');
 });
