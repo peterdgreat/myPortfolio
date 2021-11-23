@@ -23,7 +23,7 @@
 
 
 ## Live Demo
-https://peterdgreat.github.io/myPortfolio/
+[portfolio](https://peterdgreat.github.io/myPortfolio/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
