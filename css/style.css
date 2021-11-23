@@ -822,7 +822,7 @@ button:disabled {
   }
 
   .intro {
-    background-image: url(/img/Illustration-header.png);
+    background-image: url(../img/Illustration-header.png);
     height: 870px;
     flex-direction: row;
     justify-content: flex-start;
